@@ -1,23 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import Program_1 from './Lab_Programs/Program_1';
+import Greet from './Lab_Programs/Program_2';
+import Welcome from './Lab_Programs/Program_3';
+import { Hello_With_JSX, Hello_Without_JSX } from './Lab_Programs/Program_4';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Program_1/>
+     {/* <Greet/> */}
+     {/* <Welcome/> */}
+     {/* <Hello_With_JSX/> */}
+     {/* <Hello_Without_JSX/> */}
     </div>
   );
 }
